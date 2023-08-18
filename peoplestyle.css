@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+    body {
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .container {
+      line-height: 150%;
+    }
+    h1{
+      padding:10px;
+    }
+
+    .left {
+      float: left;
+      width: 180px;
+      margin: 0;
+      padding: 1em;
+      background-color: rgb(218, 218, 219);
+    }
+
+    .content {
+      margin-left: 190px;
+      border-left: 1px solid #d4d4d4;
+      padding: 1em;
+      overflow: hidden;
+    }
+
+    .bar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-color: rgb(24, 24, 80);
+    }
+
+    .bar li a {
+      display: block;
+      color: rgb(253, 253, 253);
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    .bar li a.active {
+      background-color: #84e4e2;
+      color: black;
+    }
+
+    .bar li a:hover:not(.active) {
+      background-color: #8af3ad;
+      color: black;
+    }
+
+    .content-table table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+      margin: 30px 0; 
+      border-radius: 5px;
+    }
+    .content-table td{
+     text-align: left;
+    }
+    .content-table table,th,td{
+      border:1px solid white;
+    }
+    .content-table th{
+      border-radius:15px;
+      background-color:#84e4e2;
+      padding:15px;
+      color:rgb(54,71,218);
+      font-size:20px;
+    }
+    .content-table td{
+      background-color: #84e4e2;
+      padding:10px;
+    }
+    .content-table li{
+      padding:5px;
+      font-size:17px;
+    }
+    .types th{
+      font-size:20px;
+      background-color:#70b2ec; 
+  
+    }
+    .types td{
+      font-size:20px;
+      text-align: center;
+      background-color:#8af3ad; 
+    }
+    .types tr{
+      height:70px;
+    }
+    input[type=submit] {
+      width: 100%;
+      background-color: #04AA6D;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+   .apply-form table,td,th{
+     background-color:#e7ece9;
+     color:black;
+     font-size: 17px;
+   }
+   .apply-form th{
+     text-align:left;
+   }
+    
